@@ -2,43 +2,32 @@
 $home = esc_url(home_url());
 $wp_url = get_template_directory_uri();
 get_header(); ?>
-<section class="py-5">
-  <div class="container">
-    <div class="mb-5">
-      <h2>テキストカラー一覧</h2>
-      <p class="text-body">text-body</p>
-      <p class="text-primary">text-primary</p>
-      <p class="text-secondary">text-secondary</p>
-      <p class="text-info">text-info</p>
-      <p class="text-success">text-success</p>
-      <p class="text-warning">text-warning</p>
-      <p class="text-danger">text-danger</p>
-      <p class="text-light">text-light</p>
-      <p class="text-dark">text-dark</p>
-    </div>
-    <div class="mb-5">
-      <h2>ボタン一覧</h2>
-      <div class="mb-3">
-        <button class="mr-2 btn btn-primary">text-primary</button>
-        <button class="mr-2 btn btn-secondary">text-secondary</button>
-        <button class="mr-2 btn btn-info">text-info</button>
-        <button class="mr-2 btn btn-success">text-success</button>
-        <button class="mr-2 btn btn-warning">text-warning</button>
-        <button class="mr-2 btn btn-danger">text-danger</button>
-        <button class="mr-2 btn btn-light">text-light</button>
-        <button class="mr-2 btn btn-dark">text-dark</button>
-      </div>
-      <div class="mb-0">
-        <button class="mr-2 btn btn-outline-primary">text-primary</button>
-        <button class="mr-2 btn btn-outline-secondary">text-secondary</button>
-        <button class="mr-2 btn btn-outline-info">text-info</button>
-        <button class="mr-2 btn btn-outline-success">text-success</button>
-        <button class="mr-2 btn btn-outline-warning">text-warning</button>
-        <button class="mr-2 btn btn-outline-danger">text-danger</button>
-        <button class="mr-2 btn btn-outline-light">text-light</button>
-        <button class="mr-2 btn btn-outline-dark">text-dark</button>
-      </div>
-    </div>
-  </div>
-</section>
+<div class="l-Hero">
+<div class="Hero">
+<div class="Hero__inner">
+<div class="Hero__catch">
+<h1 class="Hero__catch-main">
+<span class="copy-1">A GOOD PLACE</span>
+<span class="copy-2">TO FIND YOUR MOMENT</span>
+</h1>
+<div class="Hero__catch-sub">
+<span>The best space you have never experienced before.</span>
+</div>
+</div>
+<div class="Hero__image-left"></div>
+<div class="Hero__image-right"></div>
+<div class="Hero__description">
+<span>PRIVATE HAIR SALON RICETTO HAIR DESIGN</span>
+</div>
+<div class="scroll Hero__scroll">
+<div class="scroll__text">
+<span>SCROLL DOWN</span>
+</div>
+<div class="scroll__line">
+<div class="scroll__line-inner"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
 <?php get_footer();

@@ -12,10 +12,14 @@ $wp_url = get_template_directory_uri(); ?>
 <?php endif; ?>
 </head>
 <body>
-<!-- ヘッダー -->
+
+<!-- loading anim -->
+<div id="loading" class="loading">
+<div class="loading__line">
+<div class="loading__line-inner"></div>
+</div>
+</div>
+<!-- loading anim -->
 <header>
 </header>
-<!-- ヘッダー終了 -->
-
-<!-- メインコンテンツ -->
 <main>
