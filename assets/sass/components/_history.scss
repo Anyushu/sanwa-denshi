@@ -1,0 +1,47 @@
+.about {
+  &__history {
+    &__timeline {
+      box-sizing: border-box;
+      background-color: $white;
+      border-radius: 0.5rem;
+      margin: 60px 0 0;
+      li {
+        list-style: none;
+        overflow: hidden;
+        margin: 0;
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        box-sizing: border-box;
+        p {
+          margin: 0;
+        }
+        .timeline-date {
+          box-sizing: border-box;
+          padding-right: 2rem;
+          max-width: 150px;
+          min-width: 150px;
+          font-weight: bold;
+        }
+        .timeline-content {
+          position: relative;
+          box-sizing: border-box;
+          border-left: 3px #dfdfdf solid;
+          padding: 1rem 0 1rem 2rem;
+          &::before {
+            content: "";
+            width: 12px;
+            height: 12px;
+            background: $primary;
+            position: absolute;
+            left: -1px;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 100%;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+.technology {
+  &.mv__sub {
+    overflow: visible;
+  }
+  .mv__sub__inner {
+    text-align: left;
+    @include media-breakpoint-down(md) {
+      text-align: center;
+    }
+  }
+  &__menu {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -140px;
+    background-color: $primary;
+    box-sizing: border-box;
+    padding: 60px;
+    @include media-breakpoint-down(md) {
+      width: 100%;
+      padding: 1.5rem 1rem;
+    }
+    a {
+      position: relative;
+      display: block;
+      color: $white;
+      width: 100%;
+      padding: 1rem;
+      border-bottom: solid 1px #355fa5;
+      min-width: 420px;
+      font-weight: bold;
+      @include media-breakpoint-down(md) {
+        min-width: 1px;
+      }
+      &::after {
+        display: block;
+        line-height: 1;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 1rem;
+        content: "\f107";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+      }
+    }
+  }
+  &__board {
+    margin-top: 90px;
+    @include media-breakpoint-down(md) {
+      margin-top: 150px;
+    }
+    .post__main {
+      margin-top: 90px;
+      @include media-breakpoint-down(md) {
+        margin-top: 60px;
+      }
+    }
+  }
+}

@@ -14,18 +14,57 @@ $wp_url = get_template_directory_uri(); ?>
 </head>
 <body>
 <header class="header">
-  <h1><a href="<?php echo $home; ?>"><img src="<?php echo $wp_url; ?>/dist/images/logo.png" alt="<?php bloginfo('name'); ?>"></a></h1>
-  <nav class="header__nav">
-    <ul>
-      <li class="header__nav-item"><a href="<?php echo $home; ?>/">ホーム</a></li>
-      <li class="header__nav-item"><a href="<?php echo $home; ?>/company/">企業情報</a></li>
-      <li class="header__nav-item"><a href="<?php echo $home; ?>/service/">事業内容</a></li>
-      <li class="header__nav-item"><a href="<?php echo $home; ?>/technology/">技術・設計</a></li>
-      <li class="header__nav-item"><a href="<?php echo $home; ?>/products/">製品情報</a></li>
-      <li class="header__nav-item"><a href="<?php echo $home; ?>/network/">拠点体制</a></li>
-      <li class="header__nav-item"><a href="<?php echo $home; ?>/recruit/">採用情報</a></li>
-      <li class="header__nav-item"><a href="<?php echo $home; ?>/news/">新着情報</a></li>
-    </ul>
-  </nav>
+<h1><a href="<?php echo $home; ?>"><img class="header-logo" src="<?php echo $wp_url; ?>/dist/images/logo.png" alt="<?php bloginfo('name'); ?>"></a></h1>
+<nav class="header__nav">
+<ul>
+<li class="header__nav-item"><a href="<?php echo $home; ?>/">ホーム</a></li>
+<li class="header__nav-item">
+<a class="header__nav-parent" href="<?php echo $home; ?>/company/">企業情報</a>
+<ul class="header__nav__mega">
+<li><a href="<?php echo $home; ?>/company#">会社概要</a></li>
+<li><a href="<?php echo $home; ?>/company#">沿革</a></li>
+<li><a href="<?php echo $home; ?>/company#">組織図</a></li>
+<li><a href="<?php echo $home; ?>/company#">CSRなどの方針</a></li>
+<li><a href="<?php echo $home; ?>/company#">関連会社</a></li>
+<li><a href="<?php echo $home; ?>/company#">お問い合わせ</a></li>
+</ul>
+</li>
+<li class="header__nav-item"><a href="<?php echo $home; ?>/service/">事業内容</a></li>
+<li class="header__nav-item"><a href="<?php echo $home; ?>/technology/">技術・設計</a></li>
+<li class="header__nav-item"><a href="<?php echo $home; ?>/products/">製品情報</a></li>
+<li class="header__nav-item">
+<a class="header__nav-parent" href="<?php echo $home; ?>/network/">拠点体制</a>
+<ul class="header__nav__mega">
+<li><a href="<?php echo $home; ?>/network#sales">セールスネットワーク</a></li>
+<li><a href="<?php echo $home; ?>/network#factory">ファクトリー</a></li>
+<li><a href="<?php echo $home; ?>/network#global">海外事業部</a></li>
+</ul>
+</li>
+<li class="header__nav-item"><a href="<?php echo $home; ?>/recruit/">採用情報</a></li>
+<li class="header__nav-item"><a href="<?php echo $home; ?>/news/">新着情報</a></li>
+</ul>
+</nav>
+
+<span id="nav-open" class="sp__menu">
+<span></span>
+</span>
+
+<nav id="spnav">
+<ul>
+<li><a href="<?php echo $home; ?>/">ホーム</a></li>
+<li><a href="<?php echo $home; ?>/company/">企業情報</a></li>
+<li><a href="<?php echo $home; ?>/service/">事業内容</a></li>
+<li><a href="<?php echo $home; ?>/technology/">技術・設計</a></li>
+<li><a href="<?php echo $home; ?>/products/">製品情報</a></li>
+<li><a href="<?php echo $home; ?>/network/">拠点体制</a></li>
+<li><a href="<?php echo $home; ?>/recruit/">採用情報</a></li>
+<li><a href="<?php echo $home; ?>/news/">新着情報</a></li>
+<li>
+<a class="btn btn-primary w-100 mt-4" href="tel:06-4301-0431"><i class="fas fa-phone-alt mr-2"></i>06-4301-0431</a>
+<span class="d-block mt-2 text-secondary small">営業時間  9時〜17時(平日)</span>
+</li>
+</ul>
+</nav>
+
 </header>
 <main>

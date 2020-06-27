@@ -2,16 +2,6 @@
   z-index: 1;
   position: relative;
 }
-@media (min-width: 768px) and (max-width: 1024px) {
-  .Hero {
-    padding-top: 50px;
-  }
-}
-@media (max-width: 768px) {
-  .Hero {
-    padding-top: 50px;
-  }
-}
 .Hero__inner {
   z-index: 1;
   position: relative;
@@ -28,7 +18,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(0,0,0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -74,7 +64,7 @@
 }
 @media (max-width: 768px) {
   .Hero__catch-main {
-    font-size: calc(2rem + 1vw);
+    font-size: calc(2rem + 2vw);
   }
 }
 .Hero__catch-sub {
@@ -86,8 +76,7 @@
 }
 @media (max-width: 768px) {
   .Hero__catch-sub {
-    bottom: -30px;
-    font-size: 1rem;
+    font-size: 13px;
   }
 }
 .Hero__catch-sub span {
@@ -106,6 +95,7 @@
 @media (max-width: 768px) {
   .Hero__image-left {
     width: 100%;
+    height: 50%;
   }
 }
 .Hero__image-right {
@@ -120,7 +110,10 @@
 }
 @media (max-width: 768px) {
   .Hero__image-right {
-    display: none !important;
+    width: 100%;
+    height: 50%;
+    top: auto;
+    bottom: 0;
   }
 }
 .Hero__description {
@@ -155,16 +148,27 @@
   position: absolute;
   background-color: $primary;
   left: 50%;
-  bottom: -4rem;
+  bottom: -2.5rem;
   transform: translateX(-50%);
   padding: 2rem 4rem;
   box-sizing: border-box;
+  @include media-breakpoint-down(md) {
+    padding: 1.5rem;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 3.5rem;
+  }
   a {
     display: flex;
     justify-content: start;
     align-items: center;
     color: $white;
     line-height: 1;
+    @include media-breakpoint-down(md) {
+      flex-wrap: wrap;
+      font-size: $font-size-sm;
+    }
     span {
       display: block;
     }
@@ -178,12 +182,104 @@
       content: "\f054";
       font-family: "Font Awesome 5 Free";
       font-weight: 900;
+      @include media-breakpoint-down(md) {
+        right: 1rem;
+      }
     }
   }
   &-time {
     margin-right: 3rem;
+    @include media-breakpoint-down(md) {
+      margin-right: 1rem;
+    }
   }
   &-cat {
     margin-right: 4rem;
+    @include media-breakpoint-down(md) {
+      margin-right: 0;
+    }
+  }
+  &-ttl {
+    @include media-breakpoint-down(md) {
+      width: 100%;
+      margin-top: 1rem;
+    }
+  }
+}
+
+.mv {
+  &__sub {
+    overflow: hidden;
+    width: 100%;
+    height: 55vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    @include media-breakpoint-down(md) {
+      height: 40vh;
+    }
+    &.lower {
+      height: 90vh;
+      @include media-breakpoint-down(md) {
+        height: 70vh;
+      }
+      .mv__sub__inner-ttl {
+        margin-top: 0;
+      }
+    }
+    .container {
+      position: relative;
+      height: 100%;
+    }
+    &__inner {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      transform: translateY(-50%);
+      &-ttl {
+        font-size: 3.75rem;
+        font-weight: bold;
+        line-height: 1;
+        color: $white;
+        margin: 0;
+        @include media-breakpoint-down(md) {
+          font-size: 3rem;
+          margin-top: 2rem;
+        }
+        &:first-letter {
+          color: $primary;
+        }
+        &+p {
+          font-size: 1rem;
+          margin: .8em 0 0;
+          color: $white;
+          font-weight: bold;
+        }
+      }
+    }
+    &.news {
+      background-image: url("../images/mv_news.png");
+    }
+    &.products {
+      background-image: url("../images/mv_products.png");
+    }
+    &.company {
+      background-image: url("../images/mv_company.png");
+    }
+    &.technology {
+      background-image: url("../images/mv_technology.png");
+    }
+  }
+}
+
+#breadcrumbs {
+  position: absolute;
+  left: 0;
+  bottom: 1.5rem;
+  span, a {
+    color: $white;
+    font-size: 12px;
   }
 }

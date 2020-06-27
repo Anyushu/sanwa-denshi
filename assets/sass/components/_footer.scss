@@ -1,0 +1,131 @@
+.cta {
+  background-color: $primary;
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    &__inner {
+      width: 31%;
+      text-align: center;
+      @include media-breakpoint-down(md) {
+        width: 100%;
+        margin-bottom: 2rem;
+      }
+      &:last-child {
+        @include media-breakpoint-down(md) {
+          margin-bottom: 0;
+        }
+      }
+      &-box {
+        background-color: $white;
+        box-sizing: border-box;
+        padding: 1.5rem;
+        margin-bottom: 1rem;
+        a {
+          position: relative;
+          display: block;
+          width: 100%;
+          color: $body-color;
+          img {
+            display: block;
+            margin: 0 auto 1.5rem;
+            height: 2rem;
+          }
+          p {
+            font-weight: bold;
+            margin: 0;
+          }
+          &::after {
+            display: block;
+            line-height: 1;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 0;
+            content: "\f054";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            color: $primary;
+            font-size: $font-size-sm;
+          }
+        }
+        & + p {
+          margin: 0;
+          color: $white;
+          font-size: $font-size-sm;
+          a {
+            color: $white;
+            display: block;
+            font-size: 1.8rem;
+            font-weight: bold;
+            line-height: 1;
+          }
+          small {
+            display: block;
+          }
+        }
+      }
+      &:first-child {
+        a {
+          &::after {
+            content: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+.totop {
+  position: relative;
+  display: block;
+  font-size: 0;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  background-color: $body-color;
+  img {
+    position: absolute;
+    top: 100%;
+    right: 10%;
+    margin-top: -2px;
+  }
+}
+
+.footer {
+  position: relative;
+  &__links {
+    margin: 60px 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    @include media-breakpoint-down(md) {
+      display: none;
+    }
+    li {
+      list-style: none;
+      a {
+        display: block;
+        color: $body-color;
+        font-size: $font-size-sm;
+        padding: 0 2rem;
+        box-sizing: border-box;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.socket {
+  font-size: 12px;
+  color: $secondary;
+  position: absolute;
+  right: 0;
+  bottom: -6rem;
+  @include media-breakpoint-down(md) {
+    right: 1rem;
+    bottom: -3rem;
+  }
+}
