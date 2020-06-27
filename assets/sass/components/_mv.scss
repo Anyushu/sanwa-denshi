@@ -223,6 +223,11 @@
       @include media-breakpoint-down(md) {
         height: 70vh;
       }
+      .mv__sub__inner {
+        @include media-breakpoint-down(md) {
+          top: 40%;
+        }
+      }
       .mv__sub__inner-ttl {
         margin-top: 0;
       }
@@ -251,9 +256,9 @@
         &:first-letter {
           color: $primary;
         }
-        &+p {
+        & + p {
           font-size: 1rem;
-          margin: .8em 0 0;
+          margin: 0.8em 0 0;
           color: $white;
           font-weight: bold;
         }
@@ -271,6 +276,12 @@
     &.technology {
       background-image: url("../images/mv_technology.png");
     }
+    &.network {
+      background-image: url("../images/mv_network.png");
+    }
+    &.recruit {
+      background-image: url("../images/mv_recruit.png");
+    }
   }
 }
 
@@ -278,7 +289,8 @@
   position: absolute;
   left: 0;
   bottom: 1.5rem;
-  span, a {
+  span,
+  a {
     color: $white;
     font-size: 12px;
   }

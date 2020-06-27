@@ -135,6 +135,24 @@
   &.bg_02 {
     background-image: url("../images/sub_bg_2.png");
   }
+  &.bg_03 {
+    background-image: url("../images/sub_bg_3.png");
+  }
+  &.bg_04 {
+    background-image: url("../images/sub_bg_4.png");
+  }
+  & > .ttl-h2 {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+    .ttl-h2-en,
+    .ttl-h2-jp {
+      color: $white;
+    }
+  }
   .container {
     position: relative;
     height: 100%;

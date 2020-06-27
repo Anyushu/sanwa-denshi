@@ -1,0 +1,217 @@
+.lower__menu__inner {
+  &.network {
+    a {
+      width: 30%;
+      text-align: center;
+      @include media-breakpoint-down(md) {
+        width: auto;
+      }
+    }
+  }
+}
+
+.sales {
+  background-image: url("../images/mv_network_map.png");
+  background-size: initial;
+  background-repeat: no-repeat;
+  background-position: center top;
+  &__lists {
+    display: flex;
+    justify-content: flex-end;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    @include media-breakpoint-down(md) {
+      margin-top: 0;
+    }
+    &__inner {
+      width: 32%;
+      box-sizing: border-box;
+      overflow: hidden;
+      border: solid 1px #d2d2d2;
+      border-radius: 0.3rem;
+      @include media-breakpoint-down(md) {
+        width: 100%;
+        margin: 2% 0 0;
+      }
+      &:nth-child(2n) {
+        margin: 0 2%;
+        @include media-breakpoint-down(md) {
+          margin: 2% 0 0;
+        }
+      }
+      h3 {
+        background-color: #eff3f8;
+        margin: 0;
+        font-size: 1.125rem;
+        font-weight: bold;
+        color: $primary;
+        box-sizing: border-box;
+        padding: 1em;
+        img,
+        span {
+          display: inline-block;
+          vertical-align: middle;
+        }
+        img {
+          margin-right: 1rem;
+        }
+      }
+      p {
+        box-sizing: border-box;
+        padding: 1.5rem;
+        background-color: $white;
+        margin: 0;
+      }
+    }
+    &:first-of-type {
+      margin-top: 280px;
+      @include media-breakpoint-down(md) {
+        margin-top: 40px;
+      }
+      .sales__lists__inner {
+        h3 {
+          background-color: #fffafa;
+          color: #e31f33;
+        }
+      }
+    }
+  }
+}
+
+.lower__sub__mv__net {
+  & + .sec {
+    .container {
+      position: relative;
+      margin-top: -90px;
+      padding-left: 4rem;
+      padding-right: 4rem;
+      padding-top: 90px;
+      background-color: $white;
+      @include media-breakpoint-down(md) {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -45px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 45px;
+      }
+    }
+  }
+}
+
+.post__main {
+  &.net {
+    margin-top: 90px;
+    @include media-breakpoint-down(md) {
+      margin-top: 60px;
+    }
+  }
+}
+
+.net__merit {
+  margin-top: 90px;
+  @include media-breakpoint-down(md) {
+    margin-top: 60px;
+  }
+  h3 {
+    position: relative;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-bottom: 2em;
+    @include media-breakpoint-down(md) {
+      font-size: 1.2rem;
+    }
+    &::after {
+      content: "";
+      width: 3em;
+      height: 3px;
+      background-color: $primary;
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      margin-left: -1.5em;
+    }
+  }
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    &__inner {
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: nowrap;
+      align-items: center;
+      width: 49%;
+      margin-right: 2%;
+      box-sizing: border-box;
+      padding: 2rem;
+      border: solid 1px $light;
+      @include media-breakpoint-down(md) {
+        width: 100%;
+        margin-bottom: 3%;
+        padding: 1.5rem;
+      }
+      &:nth-child(2n) {
+        margin-right: 0;
+      }
+      &:nth-child(-n + 2) {
+        margin-bottom: 2%;
+      }
+      span {
+        display: block;
+        text-align: left;
+        width: 15%;
+        @include media-breakpoint-down(md) {
+          width: 20%;
+          text-align: left;
+        }
+      }
+      p {
+        font-weight: bold;
+        margin: 0;
+      }
+    }
+  }
+  &__lists {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    &__inner {
+      width: 24%;
+      box-sizing: border-box;
+      padding: 2rem 1.5rem;
+      background-color: #f7f7f7;
+      text-align: center;
+      @include media-breakpoint-down(md) {
+        width: 100%;
+        margin-bottom: 1rem;
+      }
+      &-check {
+        display: block;
+        margin: 0 auto;
+      }
+      &-icon {
+        display: block;
+        margin: 2rem auto;
+        max-height: 68px;
+      }
+      h4 {
+        font-size: 1.125rem;
+        font-weight: bold;
+        margin-bottom: 2rem;
+      }
+      p {
+        text-align: left;
+        font-size: 15px;
+        margin: 0;
+      }
+    }
+  }
+}

@@ -116,6 +116,11 @@ img {
       content: "\f35d";
     }
   }
+  &-sm {
+    min-width: 220px;
+    font-size: $font-size-sm;
+    padding: 0.5rem 1.5rem;
+  }
 }
 
 .hr-gray {

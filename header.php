@@ -21,12 +21,12 @@ $wp_url = get_template_directory_uri(); ?>
 <li class="header__nav-item">
 <a class="header__nav-parent" href="<?php echo $home; ?>/company/">企業情報</a>
 <ul class="header__nav__mega">
-<li><a href="<?php echo $home; ?>/company#">会社概要</a></li>
-<li><a href="<?php echo $home; ?>/company#">沿革</a></li>
-<li><a href="<?php echo $home; ?>/company#">組織図</a></li>
-<li><a href="<?php echo $home; ?>/company#">CSRなどの方針</a></li>
-<li><a href="<?php echo $home; ?>/company#">関連会社</a></li>
-<li><a href="<?php echo $home; ?>/company#">お問い合わせ</a></li>
+<li><a href="<?php echo $home; ?>/company#id02">会社概要</a></li>
+<li><a href="<?php echo $home; ?>/company#id03">沿革</a></li>
+<li><a href="<?php echo $home; ?>/company#id04">組織図</a></li>
+<li><a href="<?php echo $home; ?>/company#id05">CSRなどの方針</a></li>
+<li><a href="<?php echo $home; ?>/company#id06">関連会社</a></li>
+<li><a href="<?php echo $home; ?>/company#id07">お問い合わせ</a></li>
 </ul>
 </li>
 <li class="header__nav-item"><a href="<?php echo $home; ?>/service/">事業内容</a></li>
@@ -35,9 +35,9 @@ $wp_url = get_template_directory_uri(); ?>
 <li class="header__nav-item">
 <a class="header__nav-parent" href="<?php echo $home; ?>/network/">拠点体制</a>
 <ul class="header__nav__mega">
-<li><a href="<?php echo $home; ?>/network#sales">セールスネットワーク</a></li>
-<li><a href="<?php echo $home; ?>/network#factory">ファクトリー</a></li>
-<li><a href="<?php echo $home; ?>/network#global">海外事業部</a></li>
+<li><a href="<?php echo $home; ?>/network#id01">セールスネットワーク</a></li>
+<li><a href="<?php echo $home; ?>/network#id02">ファクトリー</a></li>
+<li><a href="<?php echo $home; ?>/network#id03">海外事業部</a></li>
 </ul>
 </li>
 <li class="header__nav-item"><a href="<?php echo $home; ?>/recruit/">採用情報</a></li>
