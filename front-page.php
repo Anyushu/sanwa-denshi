@@ -2,7 +2,7 @@
 $home = esc_url(home_url());
 $wp_url = get_template_directory_uri();
 get_header(); ?>
-<div class="l-Hero">
+<div class="l-Hero position-relative">
 <div class="Hero">
 <div class="Hero__inner">
 <div class="Hero__catch visible">
@@ -49,7 +49,7 @@ $p = get_the_permalink();
 
 </div>
 
-<section class="sec mt-5">
+<section id="home-service" class="sec mt-5">
 <div class="container">
 <div class="row align-items-center">
 <div class="col-md-4 mb-md-0 mb-5">
@@ -185,22 +185,22 @@ if (has_post_thumbnail()) {
 </div>
 
 <div class="home__company__menu shadow bg-white">
-<a href="<?php echo $home; ?>/company#">
+<a href="<?php echo $home; ?>/company#id01">
 <span><img class="home__company__menu-icon" src="<?php echo $wp_url; ?>/dist/images/icon_com_01.png" alt="アイコン"></span>
 <span class="home__company__menu-ttl">ご挨拶</span>
 <span class="home__company__menu-arrow"><img src="<?php echo $wp_url; ?>/dist/images/arrow_icon.png" alt="矢印"></span>
 </a>
-<a href="<?php echo $home; ?>/company#">
+<a href="<?php echo $home; ?>/company#id02">
 <span><img class="home__company__menu-icon" src="<?php echo $wp_url; ?>/dist/images/icon_com_02.png" alt="アイコン"></span>
 <span class="home__company__menu-ttl">会社概要</span>
 <span class="home__company__menu-arrow"><img src="<?php echo $wp_url; ?>/dist/images/arrow_icon.png" alt="矢印"></span>
 </a>
-<a href="<?php echo $home; ?>/company#">
+<a href="<?php echo $home; ?>/company#id05">
 <span><img class="home__company__menu-icon" src="<?php echo $wp_url; ?>/dist/images/icon_com_03.png" alt="アイコン"></span>
 <span class="home__company__menu-ttl">CSR</span>
 <span class="home__company__menu-arrow"><img src="<?php echo $wp_url; ?>/dist/images/arrow_icon.png" alt="矢印"></span>
 </a>
-<a href="<?php echo $home; ?>/company#">
+<a href="<?php echo $home; ?>/company#id06">
 <span><img class="home__company__menu-icon" src="<?php echo $wp_url; ?>/dist/images/icon_com_04.png" alt="アイコン"></span>
 <span class="home__company__menu-ttl">関連会社</span>
 <span class="home__company__menu-arrow"><img src="<?php echo $wp_url; ?>/dist/images/arrow_icon.png" alt="矢印"></span>
@@ -224,15 +224,15 @@ if (has_post_thumbnail()) {
 </div>
 
 <div class="home__network__menu">
-<a href="<?php echo $home; ?>/network#sales">
+<a href="<?php echo $home; ?>/network#id01">
 <h3><span>Sales network</span>セールスネットワーク</h3>
 <img src="<?php echo $wp_url; ?>/dist/images/icon_arrow_white.png" alt="矢印">
 </a>
-<a href="<?php echo $home; ?>/network#factory">
+<a href="<?php echo $home; ?>/network#id02">
 <h3><span>Factory</span>ファクトリー</h3>
 <img src="<?php echo $wp_url; ?>/dist/images/icon_arrow_white.png" alt="矢印">
 </a>
-<a href="<?php echo $home; ?>/network#global">
+<a href="<?php echo $home; ?>/network#id03">
 <h3><span>Global</span>海外事業部</h3>
 <img src="<?php echo $wp_url; ?>/dist/images/icon_arrow_white.png" alt="矢印">
 </a>
@@ -258,7 +258,7 @@ if (has_post_thumbnail()) {
 <a class="btn btn-dark" href="<?php echo $home; ?>/recruit/">採用情報</a>
 </div>
 <div class="mt-3">
-<a class="btn btn-dark" href="" target="_blank">マイナビ2020</a>
+<a class="btn btn-dark" href="https://job.mynavi.jp/21/pc/search/corp104468/outline.html" target="_blank">マイナビ2020</a>
 </div>
 
 </div>

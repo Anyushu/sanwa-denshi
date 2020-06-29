@@ -157,7 +157,7 @@
     width: 90vw;
     margin-left: auto;
     margin-right: auto;
-    bottom: 3.5rem;
+    bottom: -45px;
   }
   a {
     display: flex;
@@ -289,6 +289,10 @@
   position: absolute;
   left: 0;
   bottom: 1.5rem;
+  @include media-breakpoint-down(md) {
+    left: 1rem;
+    bottom: 1rem;
+  }
   span,
   a {
     color: $white;

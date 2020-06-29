@@ -109,17 +109,17 @@ yoast_breadcrumb('<div id="breadcrumbs">', '</div>');
 <table>
 <tbody>
 <tr><td>代表取締役社長</td>
-<td>伊藤 和也</td></tr>
+<td class="text-nowrap">伊藤 和也</td></tr>
 <tr><td>専務取締役管理本部長</td>
-<td>羽生 昇</td></tr>
+<td class="text-nowrap">羽生 昇</td></tr>
 <tr><td>取締役営業本部長</td>
-<td>長谷川 実</td></tr>
+<td class="text-nowrap">長谷川 実</td></tr>
 <tr><td>取締役大阪工場長、ST工場長（兼務）</td>
-<td>祖地 孝</td></tr>
+<td class="text-nowrap">祖地 孝</td></tr>
 <tr><td>取締役海外事業部長、営業副本部長（兼務）</td>
-<td>岡本 満</td></tr>
+<td class="text-nowrap">岡本 満</td></tr>
 <tr><td>監査役</td>
-<td>田中 廣美</td></tr>
+<td class="text-nowrap">田中 廣美</td></tr>
 </tbody>
 </table>
 </td>
@@ -448,7 +448,7 @@ yoast_breadcrumb('<div id="breadcrumbs">', '</div>');
 <h2 class="mt-0">電子部品事業部門</h2>
 <p>車載用アクチュエータ、ＡＶ・ＯＡ・通信機器用各種コイル及びフィルター、スイッチング電源トランス・ＤＣ－ＤＣコンバーター、各種精密小型直流モータ、省力化設備機器</p>
 <div class="my-5">
-<a class="btn btn-dark extra" href="" target="_blank">東京パーツ工業株式会社</a>
+<a class="btn btn-dark extra" href="https://www.tokyoparts.co.jp/" target="_blank">東京パーツ工業株式会社</a>
 </div>
 <p class="text-primary font-weight-bold">【海外】</p>
 <p>汕頭東京電子有限公司（中国）
@@ -468,7 +468,7 @@ yoast_breadcrumb('<div id="breadcrumbs">', '</div>');
 <h2 class="mt-0">電子応用機器事業部門</h2>
 <p>カードリーダーライター、バーコードリーダーライター、センサー応用機器、ＬＥＤ応用機器／ＥＭＳ</p>
 <div class="mt-5">
-<a class="btn btn-dark extra" href="" target="_blank">三和ニューテック株式会社</a>
+<a class="btn btn-dark extra" href="http://web.sanwa-newtec.co.jp/" target="_blank">三和ニューテック株式会社</a>
 </div>
 </div>
 <div class="col-md-5 text-center mt-md-0 mt-4">
@@ -481,7 +481,7 @@ yoast_breadcrumb('<div id="breadcrumbs">', '</div>');
 <h2 class="mt-0">リモコン/ラジコン事業部門</h2>
 <p>多機能学習リモコン、高級ラジコン機器、産業用リモコン</p>
 <div class="my-5">
-<a class="btn btn-dark extra" href="" target="_blank">三和電子機器株式会社</a>
+<a class="btn btn-dark extra" href="http://www.sanwa-denshi.co.jp/" target="_blank">三和電子機器株式会社</a>
 </div>
 <p class="text-primary font-weight-bold">【海外】</p>
 <p>三和電子機器（香港）有限公司

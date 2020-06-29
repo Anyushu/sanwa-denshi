@@ -7,7 +7,7 @@
     background-position: center center;
     padding-bottom: 150px;
     @include media-breakpoint-down(md) {
-      padding: 0;
+      padding-bottom: 0;
       background-size: cover;
     }
     & > img {
@@ -144,7 +144,10 @@
 .slick-prev,
 .slick-next {
   z-index: 1;
-  width: auto;
+  width: 2rem;
+  height: 2rem;
+  line-height: normal;
+  overflow: visible;
 }
 
 .slick-prev {
@@ -160,6 +163,7 @@
   color: #2b2b2b;
   opacity: 1;
   font-size: 2rem;
+  line-height: normal;
 }
 
 .requirements__navs {

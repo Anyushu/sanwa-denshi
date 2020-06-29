@@ -20,7 +20,7 @@ $wp_url = get_template_directory_uri();
 </div>
 <div class="cta__list__inner">
 <div class="cta__list__inner-box">
-<a href="">
+<a href="<?php echo $home; ?>/company#id07">
 <img src="<?php echo $wp_url; ?>/dist/images/icon_mail.png" alt="アイコン">
 <p>メールフォーム</p>
 </a>
@@ -29,7 +29,7 @@ $wp_url = get_template_directory_uri();
 </div>
 <div class="cta__list__inner">
 <div class="cta__list__inner-box">
-<a href="">
+<a href="<?php echo $home; ?>/pdf/panf.pdf" target="_blank">
 <img src="<?php echo $wp_url; ?>/dist/images/icon_pdf.png" alt="アイコン">
 <p>資料ダウンロード</p>
 </a>

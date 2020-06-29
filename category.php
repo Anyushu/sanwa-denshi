@@ -22,7 +22,7 @@ if (function_exists('yoast_breadcrumb')) {
 
 <div class="row justify-content-between">
 <div class="col-md-8 mb-md-0 mb-5">
-<h3 class="ttl-h3">お知らせの記事一覧</h3>
+<h3 class="ttl-h3"><?php echo get_category($cat)->name; ?>の記事一覧</h3>
 <ul class="news__lists">
 <?php if (have_posts()): while (have_posts()): the_post();
 $t = get_the_title();

@@ -153,6 +153,9 @@
       top: 50%;
       right: 0;
       transform: translateY(-50%);
+      @include media-breakpoint-down(md) {
+        top: 80%;
+      }
     }
     &__menu {
       position: relative;

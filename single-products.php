@@ -36,6 +36,9 @@ if (function_exists('yoast_breadcrumb')) {
 
 <article class="post">
 <h2 class="product-ttl post-ttl mb-md-5 mb-4"><?php echo $t; ?></h2>
+<figure class="my-3">
+<img src="<?php echo $i; ?>" alt="<?php echo $t; ?>">
+</figure>
 <div class="post__main">
 <?php the_content(); ?>
 </div>

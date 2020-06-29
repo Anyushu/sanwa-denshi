@@ -17,7 +17,7 @@ if (function_exists('yoast_breadcrumb')) {
 </div>
 </section>
 
-<section class="sec">
+<div class="sec">
 <div class="container">
 <div class="products__list mt-0">
 <?php if (have_posts()): while (have_posts()): the_post();
@@ -35,6 +35,6 @@ if (has_post_thumbnail()) {
 </div>
 <?php wp_pagenavi(); ?>
 </div>
-</section>
+</div>
 
 <?php get_footer();

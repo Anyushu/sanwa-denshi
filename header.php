@@ -29,7 +29,7 @@ $wp_url = get_template_directory_uri(); ?>
 <li><a href="<?php echo $home; ?>/company#id07">お問い合わせ</a></li>
 </ul>
 </li>
-<li class="header__nav-item"><a href="<?php echo $home; ?>/service/">事業内容</a></li>
+<li class="header__nav-item"><a href="<?php echo $home; ?>#home-service">事業内容</a></li>
 <li class="header__nav-item"><a href="<?php echo $home; ?>/technology/">技術・設計</a></li>
 <li class="header__nav-item"><a href="<?php echo $home; ?>/products/">製品情報</a></li>
 <li class="header__nav-item">
@@ -53,7 +53,7 @@ $wp_url = get_template_directory_uri(); ?>
 <ul>
 <li><a href="<?php echo $home; ?>/">ホーム</a></li>
 <li><a href="<?php echo $home; ?>/company/">企業情報</a></li>
-<li><a href="<?php echo $home; ?>/service/">事業内容</a></li>
+<li><a href="<?php echo $home; ?>#home-service">事業内容</a></li>
 <li><a href="<?php echo $home; ?>/technology/">技術・設計</a></li>
 <li><a href="<?php echo $home; ?>/products/">製品情報</a></li>
 <li><a href="<?php echo $home; ?>/network/">拠点体制</a></li>

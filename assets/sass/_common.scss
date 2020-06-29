@@ -2,6 +2,9 @@ body {
   font-family: HelveticaNeue, YuGothic, "Yu Gothic Medium", "Yu Gothic", -apple-system, BlinkMacSystemFont, Roboto,
     "Segoe UI", "Helvetica Neue", Verdana, Meiryo, sans-serif;
 }
+main {
+  overflow: hidden;
+}
 p {
   line-height: 1.8;
   @include media-breakpoint-down(md) {
@@ -221,6 +224,7 @@ img {
 }
 
 .table {
+  max-width: 100%;
   th,
   td {
     border-top: 0;
@@ -229,6 +233,7 @@ img {
     padding: 1.5rem 1.5rem 1.5rem 0;
     vertical-align: middle;
     table {
+      max-width: 100%;
       th,
       td {
         border: 0;
