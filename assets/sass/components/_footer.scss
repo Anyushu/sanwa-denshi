@@ -82,13 +82,11 @@
   display: block;
   font-size: 0;
   box-sizing: border-box;
-  padding: 0.5rem;
-  background-color: $body-color;
+  border-top: solid 1rem $body-color;
+  text-align: right;
   img {
-    position: absolute;
-    top: 100%;
-    right: 10%;
     margin-top: -2px;
+    margin-right: 10%;
   }
 }
 

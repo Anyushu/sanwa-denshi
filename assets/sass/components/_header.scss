@@ -57,13 +57,14 @@
               line-height: 1;
               color: $primary;
               position: absolute;
-              bottom: -1em;
+              bottom: -5px;
               left: 50%;
               transform: translateX(-50%);
             }
           }
           .header__nav__mega {
-            display: flex;
+            height: 78px;
+            padding: 2rem 1rem;
           }
         }
       }
@@ -75,12 +76,12 @@
       top: 78px;
       left: 0;
       width: 100%;
+      height: 0;
       box-sizing: border-box;
-      padding: 2rem 1rem;
+      padding: 0;
       background-color: $primary;
       margin: 0;
-      display: none;
-      // display: flex;
+      display: flex;
       justify-content: center;
       align-items: center;
       transition: all 0.3s;
@@ -108,6 +109,9 @@
         color: $body-color;
         padding: 1rem 0.75rem;
       }
+    }
+    .header__nav > ul .header__nav-item:hover .header__nav-parent::after {
+      bottom: -20px;
     }
   }
 }

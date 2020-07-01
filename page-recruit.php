@@ -31,7 +31,7 @@ if (function_exists('yoast_breadcrumb')) {
 <div class="container">
 <h2 class="ttl-h2 text-center">
 <span class="ttl-h2-en small">Message</span>
-<span class="ttl-h2-jp">セールスネットワーク</span>
+<span class="ttl-h2-jp">メッセージ</span>
 </h2>
 <div class="text-center">
 <p>みなさん、こんにちは！
@@ -168,7 +168,7 @@ foreach ($gallery_arr as $key => $value): ?>
 <?php
 $interview_arr = [];
 $args = [
-    'posts_per_page' => 4,
+    'posts_per_page' => 5,
     'post_type' => 'interview',
     'orderby' => 'date',
     'order' => 'DESC'
@@ -228,7 +228,7 @@ foreach ($posts as $post) {
 <?php
 $args = [
     'posts_per_page' => 3,
-    'category' => 'fellowship',
+    'category_name' => 'fellowship',
     'orderby' => 'date',
     'order' => 'DESC'
 ];
@@ -236,8 +236,12 @@ $posts = get_posts($args);
 foreach ($posts as $post): setup_postdata($post);
 $t = get_the_title();
 $p = get_the_permalink();
-$cats = get_the_category()[0];
-$cat_name = $cats->name;
+$cats = get_the_category();
+foreach ($cats as $key => $cat) {
+    if ($cat->name != 'すべて') {
+        $cat_name = $cat->name;
+    }
+}
 if (has_post_thumbnail()) {
     $i = get_the_post_thumbnail_url(get_the_ID(), 'large');
 } else {

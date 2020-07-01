@@ -230,6 +230,9 @@
       }
       .mv__sub__inner-ttl {
         margin-top: 0;
+        &:first-letter {
+          color: $white;
+        }
       }
     }
     .container {
@@ -297,5 +300,13 @@
   a {
     color: $white;
     font-size: 12px;
+  }
+}
+
+.technology {
+  #breadcrumbs {
+    @include media-breakpoint-down(md) {
+      bottom: 5.5rem;
+    }
   }
 }

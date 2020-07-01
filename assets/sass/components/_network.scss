@@ -15,6 +15,10 @@
   background-size: initial;
   background-repeat: no-repeat;
   background-position: center top;
+  @include media-breakpoint-down(md) {
+    background-size: contain;
+    background-position: center 1%;
+  }
   &__lists {
     display: flex;
     justify-content: flex-end;

@@ -7,7 +7,7 @@ get_header(); the_post(); ?>
 <div class="container">
 <div class="mv__sub__inner">
 <h2 class="mv__sub__inner-ttl">Network</h2>
-<p>企業情報</p>
+<p>拠点体制</p>
 </div>
 
 <div class="lower__menu">
@@ -152,8 +152,8 @@ TEL(046)224-5273/FAX(046)224-5283
 
 <section id="id02" class="lower__sub__mv bg_03 lower__sub__mv__net">
 <h2 class="ttl-h2 text-center">
-<span class="ttl-h2-en small">Prototype</span>
-<span class="ttl-h2-jp">CAD設計・試作実装</span>
+<span class="ttl-h2-en small">Factory</span>
+<span class="ttl-h2-jp">ファクトリー</span>
 </h2>
 </section>
 
@@ -230,7 +230,6 @@ TEL(046)224-5273/FAX(046)224-5283
 <p>〒438-0812
 <br>静岡県磐田市海老塚793-1
 <br>TEL：0538-37-3531（代表）FAX：0538-37-1552（専用）
-<br>E-mail：info@tk.se-circuit.co.jp
 <br>E-mail：<a href="mailto:info@tk.se-circuit.co.jp">info@tk.se-circuit.co.jp</a></p>
 <div class="row align-items-center">
 <div class="col">

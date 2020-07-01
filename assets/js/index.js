@@ -63,7 +63,7 @@ $(function () {
     asNavFor: ".interview__nav",
   });
   $(".interview__nav").slick({
-    slidesToShow: 4,
+    slidesToShow: 5,
     slidesToScroll: 1,
     asNavFor: ".interview__list",
     dots: false,

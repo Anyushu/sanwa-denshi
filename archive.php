@@ -27,8 +27,12 @@ if (function_exists('yoast_breadcrumb')) {
 <?php if (have_posts()): while (have_posts()): the_post();
 $t = get_the_title();
 $p = get_the_permalink();
-$cats = get_the_category()[0];
-$cat_name = $cats->name;
+$cats = get_the_category();
+foreach ($cats as $key => $cat) {
+    if ($cat->name != 'すべて') {
+        $cat_name = $cat->name;
+    }
+}
 if (has_post_thumbnail()) {
     $i = get_the_post_thumbnail_url(get_the_ID(), 'large');
 } else {

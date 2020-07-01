@@ -15,14 +15,6 @@ get_header(); ?>
 </div>
 <div class="Hero__image-left"></div>
 <div class="Hero__image-right"></div>
-<div class="scroll Hero__scroll">
-<div class="scroll__text">
-<span>scroll down</span>
-</div>
-<div class="scroll__line">
-<div class="scroll__line-inner"></div>
-</div>
-</div>
 </div>
 </div>
 
@@ -30,7 +22,7 @@ get_header(); ?>
 <?php
 $args = [
     'posts_per_page' => 1,
-    'category' => 'news',
+    'category_name' => 'information',
     'orderby' => 'date',
     'order' => 'DESC'
 ];
@@ -278,7 +270,7 @@ if (has_post_thumbnail()) {
 <?php
 $args = [
     'posts_per_page' => 3,
-    'category' => 'news',
+    'category' => 'information',
     'orderby' => 'date',
     'order' => 'DESC'
 ];

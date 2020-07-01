@@ -133,8 +133,8 @@ if (function_exists('yoast_breadcrumb')) {
 <section id="id02" class="lower__sub__mv bg_01">
 <div class="container">
 <h2 class="ttl-h2 text-left">
-<span class="ttl-h2-en small">Multilayer board</span>
-<span class="ttl-h2-jp">先進の技術「多層基板」</span>
+<span class="ttl-h2-en small">Device board</span>
+<span class="ttl-h2-jp">先進の技術「デバイス基板」</span>
 </h2>
 </div>
 </section>

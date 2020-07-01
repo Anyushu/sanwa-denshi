@@ -33,7 +33,7 @@ if (has_post_thumbnail()) {
 <h3>企業情報<span>Company</span></h3>
 <img src="<?php echo $wp_url; ?>/dist/images/icon_arrow_white.png" alt="矢印">
 </a>
-<a class="bg-sidebar" href="<?php echo $home; ?>/service/">
+<a class="bg-sidebar" href="<?php echo $home; ?>#home-service">
 <h3>事業内容<span>Service</span></h3>
 <img src="<?php echo $wp_url; ?>/dist/images/icon_arrow_white.png" alt="矢印">
 </a>
