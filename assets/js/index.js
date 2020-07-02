@@ -61,6 +61,7 @@ $(function () {
     arrows: true,
     fade: true,
     asNavFor: ".interview__nav",
+    adaptiveHeight: true,
   });
   $(".interview__nav").slick({
     slidesToShow: 5,
@@ -75,8 +76,8 @@ $(function () {
   $(".requirements__navs>div").on("click", function () {
     let id = $(this).attr("data-id");
     $(".requirements__navs>div").removeClass("active");
-    $('.requirements__content>div').removeClass("active");
+    $(".requirements__content>div").removeClass("active");
     $(this).addClass("active");
-    $('.requirements__content>div[data-id="'+id+'"]').addClass("active");
+    $('.requirements__content>div[data-id="' + id + '"]').addClass("active");
   });
 });

@@ -118,6 +118,8 @@ yoast_breadcrumb('<div id="breadcrumbs">', '</div>');
 <td class="text-nowrap">祖地 孝</td></tr>
 <tr><td>取締役海外事業部長、営業副本部長（兼務）</td>
 <td class="text-nowrap">岡本 満</td></tr>
+<tr><td>取締役美原工場長</td>
+<td class="text-nowrap">吉藤 正義</td></tr>
 <tr><td>監査役</td>
 <td class="text-nowrap">田中 廣美</td></tr>
 </tbody>

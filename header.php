@@ -57,7 +57,7 @@ $wp_url = get_template_directory_uri(); ?>
 <a class="header__nav-parent" href="<?php echo $home; ?>/technology/">技術・設計</a>
 <ul class="header__nav__mega">
 <li><a href="<?php echo $home; ?>/technology#id01">先進の技術「多層基板」</a></li>
-<li><a href="<?php echo $home; ?>/technology#id02">先進の技術「多層基板」</a></li>
+<li><a href="<?php echo $home; ?>/technology#id02">先進の技術「デバイス基板」</a></li>
 <li><a href="<?php echo $home; ?>/technology#id03">CAD設計・試作実装</a></li>
 </ul>
 </li>

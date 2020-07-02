@@ -8,7 +8,7 @@ $wp_url = get_template_directory_uri(); ?>
 <ul>
 <?php
 $args = [
-    'posts_per_page' => 12,
+    'posts_per_page' => 15,
     'post_type' => 'products',
     'orderby' => 'date',
     'order' => 'DESC'

@@ -140,9 +140,8 @@ yoast_breadcrumb('<div id="breadcrumbs">', '</div>');
 <span>厚木営業所</span>
 </h3>
 <p>〒243-0018
-神奈川県厚木市中町4-51-14
-国際厚木ビル6F
-TEL(046)224-5273/FAX(046)224-5283
+<br>神奈川県厚木市中町4-51-14 国際厚木ビル6F
+<br>TEL(046)224-5273/FAX(046)224-5283
 <br>Email:<a href="mailto:atsugi@se-circuit.co.jp">atsugi@se-circuit.co.jp</a></p>
 </div>
 </div>

@@ -71,7 +71,7 @@
     &:first-of-type {
       margin-top: 280px;
       @include media-breakpoint-down(md) {
-        margin-top: 40px;
+        margin-top: 30%;
       }
       .sales__lists__inner {
         h3 {
