@@ -230,9 +230,9 @@ if (function_exists('yoast_breadcrumb')) {
 
 <section class="sec technology__board mt-0">
 <div class="container">
-<h3 class="font-weight-bold h5 mb-4">蓄積したノウハウを活かし完成度の高い製品を提供いたします。</h3>
+<!-- <h3 class="font-weight-bold h5 mb-4">蓄積したノウハウを活かし完成度の高い製品を提供いたします。</h3>
 <p>パッド間にソルダーレジストを形成することは、はんだブリッジなどの不具合防止に有効です。
-<br>しかし、パッドのピッチが狭小化すればするほど、その間にソルダーレジストを形成することが困難になります。このような狭ピッチパッド間にソルダーレジストを形成した基板をご提供いたします。</p>
+<br>しかし、パッドのピッチが狭小化すればするほど、その間にソルダーレジストを形成することが困難になります。このような狭ピッチパッド間にソルダーレジストを形成した基板をご提供いたします。</p> -->
 <div class="text-center mt-5">
 <img src="<?php echo $wp_url; ?>/dist/images/prototype.png" alt="prototype">
 </div>

@@ -61,22 +61,22 @@ $p = get_the_permalink();
 <div class="home__service__inner show">
 <h3><span>Automobile</span>自動車</h3>
 <p>先進運転支援システム（ADAS）・自動運転と進化する自動車。
-<br>ドライバーの安全・快適を実現する車載機器に当社の基板が入っています。</p>
+<br>ドライバーの安全・快適を実現する車載機器に当社の製品が使われています。</p>
 </div>
 <div class="home__service__inner">
 <h3><span>Smartphone</span>スマートフォン</h3>
 <p>次世代高速通信”５Ｇ”に向けたスマートフォン端末及びインフラ基地局など
-<br>広範囲な通信分野に当社の超高速通信を実現する基板が入っています。</p>
+<br>広範囲な通信分野に当社の超高速通信を実現する当社の製品が使われています。</p>
 </div>
 <div class="home__service__inner">
 <h3><span>Medical</span>医療機器</h3>
 <p>人命を守る医療機器・又、今後の遠隔医療（診断・治療）に向けた
-<br>高い信頼性が求められる分野に当社の基板が入っています。</p>
+<br>高い信頼性が求められる分野に当社の製品が使われています。</p>
 </div>
 <div class="home__service__inner">
 <h3><span>Robot</span>ロボット</h3>
 <p>生産工場の省人化・自動化に向けたロボット・様々なＦＡ制御機器に
-<br>当社の基板が入っています。</p>
+<br>当社の製品が使われています。</p>
 </div>
 <div class="home__service__inner">
 <h3><span>Computer</span>コンピューター</h3>
@@ -250,7 +250,7 @@ if (has_post_thumbnail()) {
 <a class="btn btn-dark" href="<?php echo $home; ?>/recruit/">採用情報</a>
 </div>
 <div class="mt-3">
-<a class="btn btn-dark" href="https://job.mynavi.jp/21/pc/search/corp104468/outline.html" target="_blank">マイナビ2020</a>
+<a class="btn btn-dark" href="https://job.mynavi.jp/21/pc/search/corp104468/outline.html" target="_blank">マイナビ2021</a>
 </div>
 
 </div>

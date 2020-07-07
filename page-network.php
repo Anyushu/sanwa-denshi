@@ -37,7 +37,7 @@ yoast_breadcrumb('<div id="breadcrumbs">', '</div>');
 <div class="sales__lists__inner">
 <h3>
 <img src="<?php echo $wp_url; ?>/dist/images/pin_0.png" alt="アイコン">
-<span>本部営業所</span>
+<span>営業本部</span>
 </h3>
 <p>〒546-0041
 <br>大阪府大阪市東住吉区桑津3-28-1
@@ -285,8 +285,8 @@ yoast_breadcrumb('<div id="breadcrumbs">', '</div>');
 <div class="col-md">
 <h2 class="mt-0">営業本部 設計部</h2>
 <p>〒546-0041
-大阪市東住吉区桑津3丁目28番1号
-TEL：06-6105-0931（直通）FAX：06-4301-1431（専用）</p>
+<br>大阪市東住吉区桑津3丁目28番1号
+<br>TEL：06-6105-0931（直通）FAX：06-4301-1431（専用）</p>
 <div class="row align-items-center">
 <div class="col">
 <p class="mb-0 text-primary font-weight-bold">品目</p>
