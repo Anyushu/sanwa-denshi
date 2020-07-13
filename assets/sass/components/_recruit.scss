@@ -58,7 +58,8 @@
 .interview__nav {
   margin: 90px 0 60px;
   @include media-breakpoint-down(md) {
-    margin: 45px 0 30px;
+    display: none;
+    // margin: 45px 0 30px;
   }
   .slick-slide {
     box-sizing: border-box;
@@ -212,6 +213,9 @@
       box-sizing: border-box;
       padding-left: 1rem;
       border-left: solid 5px $primary;
+    }
+    th {
+      white-space: nowrap;
     }
   }
 }
