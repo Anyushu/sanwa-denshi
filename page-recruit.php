@@ -281,11 +281,11 @@ if (has_post_thumbnail()) {
 </h2>
 
 <div class="requirements__navs">
-<div class="active" data-id="1">美原工場</div>
-<div data-id="2">大阪工場</div>
-<div data-id="3">東海工場</div>
-<div data-id="4">ST工場</div>
-<div data-id="5">営業本部</div>
+<div class="active" data-id="1"><?php echo get_field_object('table_1', get_the_ID())['label']; ?></div>
+<div data-id="2"><?php echo get_field_object('table_2', get_the_ID())['label']; ?></div>
+<div data-id="3"><?php echo get_field_object('table_3', get_the_ID())['label']; ?></div>
+<div data-id="4"><?php echo get_field_object('table_4', get_the_ID())['label']; ?></div>
+<div data-id="5"><?php echo get_field_object('table_5', get_the_ID())['label']; ?></div>
 </div>
 
 <div class="requirements__content">

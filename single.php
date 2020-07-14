@@ -40,9 +40,9 @@ if (function_exists('yoast_breadcrumb')) {
 <span class="news__lists__meta-cat"><?php echo $cat_name; ?></span>
 </p>
 <h2 class="post-ttl mb-md-5 mb-4"><?php echo $t; ?></h2>
-<figure class="d-block w-100 mb-md-5 mb-4">
+<!-- <figure class="d-block w-100 mb-md-5 mb-4">
 <img class="w-100" src="<?php echo $i; ?>" alt="<?php echo $t; ?>">
-</figure>
+</figure> -->
 <div class="post__main">
 <?php the_content(); ?>
 </div>
