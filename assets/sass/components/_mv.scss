@@ -230,9 +230,6 @@
       }
       .mv__sub__inner-ttl {
         margin-top: 0;
-        &:first-letter {
-          color: $white;
-        }
       }
     }
     .container {
@@ -255,9 +252,6 @@
         @include media-breakpoint-down(md) {
           font-size: 3rem;
           margin-top: 2rem;
-        }
-        &:first-letter {
-          color: $primary;
         }
         & + p {
           font-size: 1rem;
